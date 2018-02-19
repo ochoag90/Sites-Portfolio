@@ -1,0 +1,209 @@
+
+html, body 
+ 		{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #181919;
+           
+        }
+
+.main-content
+         {
+            width: 90%;
+            height: 90%;
+            max-height: 100%;
+            padding-top: 100px;
+            background-image: url("../Nike Site/pictures/court.jpg");
+            background-size:100% 100%;
+            background-repeat: no-repeat;
+            border-style: solid;
+            border-color: white;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+
+#div1 {
+		    position: relative;
+		    height: 250px;
+		    width: 250px;
+		    margin-left:7.5%;
+		    margin-top: 7.5rem;
+		    padding: 0;
+		    /*border: 1px solid black;*/
+		    -webkit-perspective: 150px; 
+		    -webkit-perspective-origin: 30% 30%; 
+		    perspective: 150px;
+		    perspective-origin: 40% 65%;
+		}
+
+#div2 {
+		    padding: 50px;
+		    position: absolute;
+		    /*border: 1px solid white;*/
+		    color: #fff;
+		    text-decoration: underline;
+		    -webkit-transform: rotateY(10deg); 
+		    transform: rotateY(5deg);
+		    font-size: 42px;
+		    text-shadow: 1px 2px black;
+		    font-family:  cursive;
+}
+
+.list {
+			color:white;
+			font-size: 18px;
+			list-style-type: none;
+			padding: 20px;
+			margin-left: 0rem;
+			font-family: "Courier New", Courier, monospace
+		}
+
+.footer {
+			width: 100%;
+			margin: 20px;
+		}
+
+.left-footer {
+/*			border-style: solid;
+			border-color: white;*/
+			float: left;
+			margin: 0 60px;
+			text-align: center;
+		}
+
+.help-menu {
+			float: left;
+/*			border-style: solid;
+			border-color: white;*/
+			font-size: 18px;
+			color: white;
+			list-style-type: none;
+			margin: 0 20px;
+		}
+
+.about-menu {
+			float: left;
+/*			border-style: solid;
+			border-color: white;*/
+			font-size: 18px;
+			color: white;
+			list-style-type: none;
+			margin: 0 20px;
+		}
+
+#footer-title {
+	font-weight: bold;
+}
+
+.social-media div img {
+	margin-top: 40px;
+}
+
+.twitter {
+	margin-left: 100px;
+	margin-right: 15px;
+	width:4%;
+	height: 4%;
+	box-shadow: 2px 2px 2px 1px #c2c2c4;
+	float: left;
+	border-radius: 20px;
+}
+
+.facebook {
+	margin-left: 20;
+	margin-right: 15px;
+	width:3.75%;
+	height: 3.75%;
+	box-shadow: 2px 2px 2px 1px #c2c2c4;
+	float: left;
+	border-radius: 20px;
+}
+
+.youtube {
+	margin-left: 20;
+	margin-right: 15px;
+	width:3.75%;
+	height: 3.75%;
+	box-shadow: 2px 2px 2px 1px #c2c2c4;
+	float: left;
+	border-radius: 20px;
+}
+
+.instagram {
+	margin-left: 20;
+	margin-right: 15px;
+	width: 3.75%;
+	height: 3.75%;
+	box-shadow: 2px 2px 2px 1px #c2c2c4;
+	float: left;
+	border-radius: 10px;
+}
+
+.copyright {
+	clear: left;
+	border-style: solid;
+	border-color: #181919;
+	border-width: 10px;
+	background: linear-gradient(#181919, 85%, #fff);
+}
+
+.language {
+	clear: left;
+	margin: 100px auto 25px auto;
+	border-top-style: dashed;
+	border-color: #fff;
+	width: 75%;
+	align-content: center;
+	padding-top: 10px;
+	padding-bottom: 80px;
+}
+
+.flag {
+	width: 3%;
+	height: 3%;
+	padding-top: 10px;
+	padding-bottom: 10px;
+	padding-right: 0px;
+	float: left;
+}
+
+#country {
+	clear: left;
+	margin-top: -10px;
+}
+
+.language span {
+	color: black;
+	font-family: "Courier New", Courier, monospace;
+	font-weight: bold;
+	float: left;
+	text-decoration: underline;
+}
+
+#guides {
+	float:right;
+	color: grey;
+	font-weight: bold;
+}
+
+#terms {
+	float: right;
+	color: grey;
+	font-weight: bold;
+}
+
+#policy {
+	float: right;
+	color: grey;
+	font-weight: bold;
+}
+
+.clear {
+	clear: right;
+	font-weight: bold;
+}
+
+.policies {
+	padding: 5px 0 5px 0;
+}
