@@ -1,2 +1,2 @@
-# Sites- Nike
-Portfolio of sites I have created. 
+# Mock Nike-Site
+ Mock idea for a Nike Site. 
