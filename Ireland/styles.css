@@ -1,0 +1,425 @@
+html, body 
+ 		{
+            height: 100%;
+            margin: 0;
+            padding: 0;
+            background: #fff;
+        }
+
+.main-content
+         {
+            width: 95%;
+            height: 95%;
+            max-height: 100%;
+            padding-top: 100px;
+            background: url(../Ireland/Pictures/ireland_main.jpg) no-repeat center center fixed;
+            background-size:100% 100%; 
+            background-repeat: no-repeat;
+            border-style: solid;
+            border-color: grey;
+            border-width: 5px;
+            margin: auto;
+            padding-bottom: 50px;
+        }
+
+
+.enter 
+		{
+			margin: 15.5% 75% 0 12%;
+			font-size: 2rem;
+			font-weight: 0;
+			color: #000;
+			text-shadow: 5px 5px 2px #fff;
+			border-bottom-style: solid;
+			border-width: .5px;
+			border-color: black;
+			text-align: center;
+			font-family: Impact, Charcoal, sans-serif;
+		}
+
+.explore {
+			width: 90%;
+			text-align: center;
+			font-family: 'Enriqueta';font-size: 3rem;
+			margin: 2rem;
+		}
+
+.main-container 
+		{
+			display: flex;
+			margin-top: 3rem;
+		}
+
+.left-box 
+		{
+			float: left;
+			max-width: 42.5%;
+			max-height: 50%;
+			margin: 5% 5%;
+		}
+
+h2 
+		{
+			/*border-style: solid;*/
+			margin: auto;
+			text-align: center;
+			font-family: 'Cutive';font-size: 22px;
+			text-decoration: underline;
+		}
+
+#education-content 
+		{
+			/*border-style: solid;*/
+			margin: 10% auto;
+			text-align: center;
+			font-family: 'Enriqueta';font-size: 2rem;
+		}
+
+.right-box 
+		{
+			/*border-style: solid;*/			
+			flex: right;
+			width: 42.5%;
+		}
+
+#education-image 
+		{
+			max-height: 100%;
+			max-width: 100%;
+			border-radius: 25%;
+		}
+
+#family
+		{
+			margin: 10% auto;
+			text-align: center;
+			font-family: 'Enriqueta';font-size: 2rem;
+		}
+
+.family-image 
+		{
+			max-height: 100%;
+			max-width: 100%;
+			border-radius: 25%;
+		}
+
+#money
+		{
+			margin: 10% auto;
+			text-align: center;
+			font-family: 'Enriqueta';font-size: 2rem;
+		}
+
+.money-image
+		{
+			max-height: 100%;
+			max-width: 100%;
+			border-radius: 25%;
+		}
+
+#social {
+			text-align: center;
+			font-family: 'Enriqueta';font-size: 2rem;
+		}
+
+.social-image
+		{
+			max-height: 100%;
+			max-width: 100%;
+			border-radius: 25%;
+		}
+
+#housing {
+			text-align: center;
+			font-family: 'Enriqueta';font-size: 2rem;
+		}
+
+.housing-image
+		{
+			max-height: 100%;
+			max-width: 100%;
+			border-radius: 25%;
+		}
+
+#transport {
+			text-align: center;
+			font-family: 'Enriqueta';font-size: 2rem;
+		}
+
+.transport-image
+		{
+			max-height: 100%;
+			max-width: 100%;
+			border-radius: 25%;
+		}
+
+.clearance 
+		{
+			border-bottom-style: dashed;
+			border-width: 1rem;
+			margin-bottom: 5rem;
+			border-color: grey;
+		}
+
+.snapshot 
+		{
+			display: flex;
+			/*border-style: solid;*/
+			width: 99%;
+			height: auto;
+			margin:auto;
+		}
+
+		/*Re-did this code below
+		Instead of having just boxes
+		the boxes are now reactive on hover*/
+
+/*.box-6 	{
+			border-style: solid;
+			border-color: white;
+			width: 33%;
+			height: 600px;
+			flex: left;
+		}*/
+
+/*.box-7 	{
+			border-style: solid;
+			border-color: white;
+			width: 33%;
+			height: 600px;
+			flex: left;
+		}*/
+
+/*.box-8 	{
+			border-style: solid;
+			border-color: white;
+			width: 33%;
+			height: 600px;
+			flex: right;
+		}*/
+
+.bar 
+		{
+			width: 100%;
+			height: 70%;
+			border-radius: 40px;
+		}
+
+.sunny-day 
+		{
+			width: 100%;
+			height: 70%;
+			border-radius: 40px;
+		}
+
+.nature 
+		{
+			width: 100%;
+			height: 70%;
+			border-radius: 40px;
+		}
+
+h3 
+		{
+			/*background-color: grey;
+			border-style: solid;*/
+			text-align: center;
+			font-weight: 900;
+			/*text-decoration: overline;*/
+			margin: 0;
+			border-radius: 20px;
+			font-size: 2rem;
+		}
+
+.spotlight
+		{
+			margin: 5rem 45%;
+			/*width: 80%;*/
+			text-align: center;
+			border-bottom-style: solid;
+			border-width: 50%
+		}
+
+.box-6 p 
+		{
+			/*border-style: solid;*/
+			font-size:1.25rem;
+			font-family: 'Enriqueta';font-size: 2rem;
+			text-align: center;
+		}
+
+.box-7 p 
+		{
+			/*border-style: solid;*/
+			font-size:1.25rem;
+			font-family: 'Enriqueta';font-size: 2rem;
+			text-align: center;
+		}
+
+.box-8 p 
+		{
+			/*border-style: solid;*/
+			font-size:1.25rem;
+			font-family: 'Enriqueta';font-size: 2rem;
+			text-align: center;
+		}
+
+		/* box left*/
+
+.box-6
+		{
+		    position: relative;
+		    width: 33%;
+		    height: 600px;
+		    border-style: solid;
+			border-color: white;
+		}
+
+.box-6:hover .image 
+		{
+  			opacity: 0.3;
+		}
+
+.box-6:hover .middle 
+		{
+  			opacity: 1;
+		}
+
+		/* box center*/
+
+.box-7 
+		{
+			flex: left;
+		    position: relative;
+		    width: 33%;
+		    height: 600px;
+		    border-style: solid;
+			border-color: white;
+		}
+
+.box-7:hover .image 
+		{
+  			opacity: 0.3;
+		}
+
+.box-7:hover .middle
+		{
+ 			opacity: 1;
+		}
+
+		/* box right*/
+
+.box-8 
+		{
+			flex: left;
+		    position: relative;
+		    width: 33%;
+		    height: 600px;
+		    border-style: solid;
+			border-color: white;
+		}
+
+.box-8:hover .image
+		{
+ 	 		opacity: 0.3;
+		}
+
+.box-8:hover .middle 
+		{
+  			opacity: 1;
+		}
+
+		/*targets images in the snapshot section*/
+
+.image 
+		{
+			opacity: 1;
+			display: block;
+			width: 100%;
+			height: 70%;
+			transition: .5s ease;
+			backface-visibility: hidden;
+			border-radius: 40px;
+		}
+
+.middle 
+		{
+			transition: .5s ease;
+			opacity: 0;
+			position: absolute;
+			top: 50%;
+			left: 50%;
+			transform: translate(-50%, -50%);
+			-ms-transform: translate(-50%, -50%);
+			text-align: center;
+		}
+
+.text 
+		{
+			background-color: white;
+			color: black;
+			font-size: 16px;
+			font-weight: bold;
+			border-radius: 3rem;
+			border-style: solid;
+			padding: 16px 32px;
+		}
+
+footer 
+		{
+			background-color: grey;
+			border-top-style: solid;
+			border-width: 1rem;
+			margin-top: 4rem;
+			/*border-style: solid;*/
+		}
+
+footer div 
+		{
+			width: 95%;
+			height: auto;
+			text-align: center;
+			font-size: 2rem;
+			display: flex;
+		}
+
+.container-footer 
+		{
+			flex:left;
+			width: 95%;
+			height:auto;
+			/*border-style: solid;*/
+		}
+
+.ireland-logo
+		{
+			margin: 10% 0 5% 10%;
+			flex: left;
+			width: 33%;
+			height: 50%;
+			border-radius: 40px;
+			/*border-style: solid;*/
+		}
+
+.accessibility 
+		{
+			/*border-style: solid;*/
+		}
+
+.list 
+		{
+			float: left;
+			font-size: 1rem;
+			margin: 4% 4%;
+			list-style-type: none;
+		}
+
+.accessibility ul 
+		{
+			width: 90%;
+			margin: auto;
+		}
+
+.list a {
+	color: black;
+}
