@@ -1,0 +1,188 @@
+@media screen and (max-width: 840px) {
+
+		/***********************
+		****Mobile-Responsive****
+		************************/
+
+		html {
+			width: 100%
+		}
+		.fade {
+			display: none;
+		}
+
+		.nav-buttons {
+			font-size: 1.25rem;
+		}
+
+		.list li {
+			width: 15.5%;
+			margin: 5px;
+		}
+
+		.header-contact {
+			padding-left: 70%;
+			width: 160px;
+			font-size: 1em;
+		}
+
+		.standard {
+			margin-top: 25px;
+		}
+
+		.logo {
+			margin-left: 2.5%;
+			width: 200px;
+		}
+
+		.deals {
+			float: left;
+			width: 45%;
+			height: 250px;
+			padding-top: 20px;
+		}
+
+		.deal-spacing {
+			display: none;
+		}
+
+		#list-fade {
+			display: none;
+		}
+
+}
+
+@media screen and (max-width: 675px) {
+
+		/***********************
+		***Format Contact Info***
+		************************/
+
+		.header-contact {
+			padding-left: 68%;
+			width: 130px;
+			font-size: .8em;	
+		}
+
+		.nav-buttons {
+			font-size: 1.1rem;
+		}
+
+		.list {
+			margin-bottom: 40px;
+		}
+}
+
+@media screen and (max-width: 640px) {
+
+		/***********************
+		*****Menu Containers*****
+		************************/
+		.menu {
+			width: 48%;
+			height: 45%;
+			float: left;
+			margin: 40px 1%;
+			/*margin:  20px 2.5px;*/
+		}
+
+		footer {
+			margin-top: 450px;
+		}
+
+}
+
+
+@media screen and (max-width: 540px) {
+
+		/***********************
+		***Format Contact Info***
+		************************/
+
+		.deals {
+			float: left;
+			width: 90%;
+			height: 250px;
+			padding-top: 20px;
+			padding-left: 20px;
+		}
+
+		.deal-header {
+			width: 80%;
+		}
+
+		#margin-spacing {
+			padding-top: 0px;
+		}
+
+		.menu-header {
+			margin: 400px 0 20px;
+			width: 75%;
+		}
+	}
+
+@media screen and (max-width: 440px) {
+
+		/***********************
+		***Format Contact Info***
+		************************/
+
+		.header-contact {
+			padding-left: 62%;
+			width: 125px;
+			font-size: .78em;
+		}
+
+		.nav-buttons {
+			font-size: 1rem;
+		}
+
+		#footer-fade {
+			display: none;
+		}
+
+		.footer-container {
+			float: left;
+			width: 25%;
+			text-align: center;
+		}
+}
+
+@media screen and (max-width: 413px) {
+
+		/***********************
+		***Format Contact Info***
+		************************/
+
+		.logo {
+			width: 150px;
+		}
+
+		.header-contact {
+			padding-left: 60%;
+			width: 120px;
+			font-size: .75em;
+		}
+
+		.nav-buttons {
+			font-size: 1rem;
+			padding-left: 10px;
+		}
+
+		#mobile-fade {
+			display: none;
+		}
+
+		.standard {
+			background-color: #885D18;
+			margin-top: 50px;
+			height: 7px;
+		}	
+
+		#margin-spacing {
+			padding-top: 90px;
+		}
+}
+
+
+
