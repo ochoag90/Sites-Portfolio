@@ -1,4 +1,4 @@
-# Sites-Portfolio
+# Responsive - Mock site for Local Store
 Portfolio of a responsive website.
 
 This site if a mock site for a local store in Medford, MA.
